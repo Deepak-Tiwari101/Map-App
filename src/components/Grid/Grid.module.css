@@ -1,0 +1,18 @@
+
+
+.glassySquare {
+    position: absolute;
+    top: 55%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    width: 80vw;
+    height: 80vh;
+    box-shadow: 0 0 10px rgb(35, 54, 67);
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(85, 1fr);
+}
