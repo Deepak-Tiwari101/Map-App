@@ -1,3 +1,8 @@
+:root {
+  --primary-col: rgb(85, 199, 237);
+  --secondary-col: #b2def3;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,5 +17,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(circle, rgb(85, 199, 237), #b2def3);
+  background: radial-gradient(circle, var(--primary-col), var(--secondary-col));
 }
