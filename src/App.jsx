@@ -1,5 +1,6 @@
 import Grid from "./components/Grid/Grid"
 import ButtonList from "./components/Button/ButtonList"
+import SideNote from "./components/SideNote/SideNote"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <h1 style={{ textAlign: "center" }}>Pathfinding Visualizer</h1>
       <ButtonList />
+      <SideNote />
       <Grid />
     </>
   )

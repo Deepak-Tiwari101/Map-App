@@ -1,0 +1,39 @@
+:root {
+    --section-max-height: 300px;
+}
+
+.section {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 17rem;
+    max-height: var(--section-max-height);
+    padding: 1rem;
+    padding-top: 0;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.section h3 {
+    text-decoration: underline;
+}
+
+.section p {
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 1s;
+}
+
+
+@keyframes typing {
+    from {
+        max-height: 0
+    }
+
+    to {
+        max-height: var(--section-max-height);
+    }
+}
